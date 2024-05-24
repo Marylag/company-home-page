@@ -361,9 +361,32 @@ header {
     .worker {
         width: 70%;
     }
+}
 
+@media only screen and (max-width: 768px) {
     .worker img {
-        height: 50%;
+        width: 25%;
+        height: auto;
+    }
+
+    .team h2, .worker h3, .worker p {
+        margin: 0;
+    }
+
+    .team h2 {
+        font-size: 2em;
+    }
+
+    .worker h3 {
+        font-size: .8em;
+    }
+
+    .worker p {
+        font-size: 1em;
+    }
+
+    .worker {
+        margin-bottom: 2rem;
     }
 }
 
@@ -411,7 +434,7 @@ header {
 
 @media only screen and (max-width: 480px) {
     .contacts h3 {
-        font-size: 1.8em;
+        font-size: 1.3em;
         margin-bottom: 1rem;
     }
 
@@ -447,4 +470,10 @@ header {
     font-family: Monserrat;
     font-weight: bold;
     font-size: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .lingualeap-text {
+        font-size: .5rem;
+    }
 }
